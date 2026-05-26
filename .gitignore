@@ -63,9 +63,10 @@ android/gradle.properties
 # Release files
 android/app/release/
 android/app/build/
-*.apk
-*.aab
-releases/
+releases/*
+!releases/*.apk
+!releases/*.aab
+
 
 # Expo / Tools
 .expo/
